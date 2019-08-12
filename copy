@@ -1,0 +1,68 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace together
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Double a, b, c;
+            Console.WriteLine("enter first number");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("enter second number");
+            b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("enter third number");
+            c = Convert.ToDouble(Console.ReadLine());
+            if (a < b & a < c)
+            {
+                Console.WriteLine(a + " is smallest");
+            }
+            else if (b < a & b < c)
+            {
+                Console.WriteLine(b + " is smallest");
+            }
+            else
+            {
+                Console.WriteLine(c + " is smallest");
+            }
+            Console.ReadLine();
+
+            
+            Console.WriteLine("enter first number");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("enter second number");
+            b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("enter third number");
+            c = Convert.ToDouble(Console.ReadLine());
+            if (a > b & a > c)
+            {
+                Console.WriteLine(a + " is largest");
+            }
+            else if (b > a & b > c)
+            {
+                Console.WriteLine(b + " is largest");
+            }
+            else
+            {
+                Console.WriteLine(c + " is largest");
+            }
+            Console.ReadLine();
+
+            Console.WriteLine("Enter Number");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter Number");
+            b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter Number");
+            c = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(a + b + c);
+            Console.WriteLine((a + b + c) / 3);
+        }
+    }
+
+    
+    
+}
